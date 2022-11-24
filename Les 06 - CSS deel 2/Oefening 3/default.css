@@ -1,0 +1,21 @@
+.eersteColumn{
+    width: 30%;
+    padding: 15px;
+    float: left;
+}
+
+.tweedeColumn{
+    width: 70%;
+    padding: 15px;
+    float: left;
+}
+
+@media only screen and (max-width: 600px){
+    .eersteColumn{
+        width: 100%;
+    }
+
+    .tweedeColumn{
+        width: 100%;
+    }
+}

@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.eersteColumn{
+    width: 60%;
+    padding: 15px;
+    float: left;
+}
+
+.tweedeColumn{
+    width: 40%;
+    padding: 15px;
+    float: left;
+}
+
+.row2 div{
+    width: 25%;
+    padding: 15px;
+    float: left;
+}
+
+@media only screen and (max-width: 500px){
+    
+    .row1 div{
+        width: 100%;
+    }
+
+    .row2 div{
+        width: 100%;
+    }
+}
+

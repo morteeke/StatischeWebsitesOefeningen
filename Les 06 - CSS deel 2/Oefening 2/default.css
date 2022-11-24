@@ -1,0 +1,27 @@
+.bigBox{
+    height: 300px;
+    width: 50%;
+    padding: 5px;
+    background-color: white;
+}
+
+.mediumBox{
+    height: 200px;
+    width: 75%;
+    padding: 5px;
+    background-color: red;
+}
+
+.smallBox{
+    height: 100px;
+    width: 50%;
+    background-color: yellow;
+}
+
+.smallBox p{
+    text-align: center;
+}
+
+body{
+    background-color: grey;
+}
